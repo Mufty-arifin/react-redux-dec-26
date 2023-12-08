@@ -5,7 +5,7 @@ const ComponentsThree = ({ count, setCount }) => {
   return (
     <div>
       <div className="card">
-        <Button count={count} setCount={setCount} color={'white'}>
+        <Button count={count} setCount={setCount} color={'black'}>
           count is
         </Button>
         <button onClick={() => setCount((count) => count - 1)}>
